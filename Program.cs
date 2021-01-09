@@ -54,7 +54,7 @@ namespace Stalker_Bot
         private async Task CommandHandler(SocketMessage message)
         {
           // all commands starts from here
-            ulong toddid = 461265486655520788;   // an ID of @ToddBott 
+            ulong toddid = 461265486655520788;   // an ID of @ToddBot
 
  // ========== String arrays used as triggers for the bot. Bot would react If any are mentioned by users 
 

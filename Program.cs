@@ -81,11 +81,11 @@ namespace Stalker_Bot
 
             if (message.Author.Id == toddid)
             {
-                await message.Channel.SendFileAsync("pomatzaem.wav", "<@461265486655520788>"); //it makes our bot react on every phrase send by @ToddBot 
+                await message.Channel.SendFileAsync("pomatzaem.wav", "<@461265486655520788>"); //it makes our bot react on every phrase sent by @ToddBot 
                
             //====  this is an implementation for bot's cooldown. Not perfect at all, but working one///
 
-                _client.StopAsync();   // makes the bot to disconnect (go offline)
+                _client.StopAsync();   // makes the bot disconnect (go offline)
                 await Task.Delay(5000); // Time delay
                 await MainAsync(); // reconnect the bot
              //=============================//
